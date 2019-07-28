@@ -1,0 +1,27 @@
+{
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": false,
+        "codeFrame": false
+    },
+    "extends": [ "airbnb", "prettier" ],
+    "plugins": [ "prettier" ],
+    "env": {
+        "browser": true,
+        "jest": true
+    },
+    "rules": {
+        "arrow-parens": [2, "as-needed", { "requireForBlockBody": false }], 
+	"quotes": [ "error", "single", { "avoidEscape": true, "allowTemplateLiterals": true } ],
+	"jsx-quotes": ["warn", "prefer-double" ],
+        "max-len": [ "warn", { "code": 100 } ],
+        "prefer-promise-reject-errors": [ "off" ],
+        "react/jsx-filename-extension": [ "off" ], "react/prop-types": [ "warn" ],
+	"react/destructuring-assignment": [ 0, "never", { "ignoreClassFields": true } ],
+	"react/jsx-one-expression-per-line": [0, {"allow": "single-child"}],
+	"no-return-assign": [ "off" ],
+	"react/jsx-first-prop-new-line": [1, "multiline"],
+	"react/jsx-max-props-per-line": [1, { "maximum": 1, "when": "always" } ]
+    }
+}
