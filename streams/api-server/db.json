@@ -1,14 +1,28 @@
 {
   "streams": [
     {
-      "title": "My Stream",
-      "description": "Great",
-      "id": 1
+      "title": "I Created This Stream",
+      "description": "This was made by me!",
+      "userId": "115018065032050460901",
+      "id": 3
     },
     {
-      "title": "Stream",
-      "description": "Hey",
-      "id": 2
+      "title": "Unexpected Behavior",
+      "description": "Didn't expect that!",
+      "userId": "115018065032050460901",
+      "id": 4
+    },
+    {
+      "title": "Programmatic Navigation: ADDED",
+      "description": "It's like, redirecting now",
+      "userId": "115018065032050460901",
+      "id": 5
+    },
+    {
+      "title": "This stream is again refactored",
+      "description": "1337 5|<!11z MAN",
+      "userId": "115018065032050460901",
+      "id": 6
     }
   ]
 }
